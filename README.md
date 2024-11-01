@@ -1,3 +1,8 @@
+---------------------------------------------------Front-------------------------------------------------------------------------
+#
+---------------------------------------------------Front-------------------------------------------------------------------------
+---------------------------------------------------Backend-------------------------------------------------------------------------
+
 Este projeto é uma API construída usando **Java, Java Spring, Migrações Flyway, PostgresSQL como banco de dados, e Spring Security e JWT para controle de autenticação.**
 
 ## Instalação
@@ -30,8 +35,7 @@ A API utiliza o Spring Security para controle de autenticação. As seguintes fu
 USER -> Função padrão para usuários logados.
 ADMIN -> Função de administrador para gerenciar parceiros (registrar novos parceiros).
 ```
-
-Para acessar endpoints protegidos como um usuário ADMIN, forneça as credenciais de autenticação apropriadas no cabeçalho da solicitação.
-
 ## Banco de Dados
-O projeto utiliza o [PostgresSQL](https://www.postgresql.org/) como banco de dados. As migrações necessárias do banco de dados são gerenciadas com o Flyway.
+O projeto utiliza o [PostgresSQL](https://www.postgresql.org/) como banco de dados.
+
+---------------------------------------------------Backend-------------------------------------------------------------------------
